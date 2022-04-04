@@ -1,0 +1,16 @@
+GreenwoodFantasyVillage/Particles filter=lfs diff=lfs merge=lfs -text
+GreenwoodFantasyVillage/Textures filter=lfs diff=lfs merge=lfs -text
+GreenwoodFantasyVillage/Blueprints filter=lfs diff=lfs merge=lfs -text
+GreenwoodFantasyVillage/Maps filter=lfs diff=lfs merge=lfs -text
+GreenwoodFantasyVillage/Materials filter=lfs diff=lfs merge=lfs -text
+GreenwoodFantasyVillage/Meshes filter=lfs diff=lfs merge=lfs -text
+StarterPack/ filter=lfs diff=lfs merge=lfs -text
+StarterPack/Geometry filter=lfs diff=lfs merge=lfs -text
+StarterPack/Mannequin filter=lfs diff=lfs merge=lfs -text
+StarterPack/StarterContent filter=lfs diff=lfs merge=lfs -text
+StarterPack/TopDownBP filter=lfs diff=lfs merge=lfs -text
+CityofBrass_Enemies/Materials filter=lfs diff=lfs merge=lfs -text
+CityofBrass_Enemies/Meshes filter=lfs diff=lfs merge=lfs -text
+CityofBrass_Enemies/Textures filter=lfs diff=lfs merge=lfs -text
+CityofBrass_Enemies/ filter=lfs diff=lfs merge=lfs -text
+CityofBrass_Enemies/maps filter=lfs diff=lfs merge=lfs -text
