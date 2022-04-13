@@ -1025,3 +1025,85 @@ Make sure 'BP_BuildingParent_C' has been compiled for  Set Selected_0
 [2022.04.13-16.05.22:245][301]LogContentValidation: Display: Validating Blueprint /Game/BitbyBit/Buildings/Farm/BP_Farm.BP_Farm
 [2022.04.13-16.05.22:924][320]BlueprintLog: New page: Compile BP_Farm
 [2022.04.13-16.05.23:046][320]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2022.04.13-16.32.13:930][391]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.04.13-16.32.13:931][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.13-16.32.14:217][398]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.04.13-16.32.14:217][398]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.04.13-16.32.14:217][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.13-16.32.14:791][417]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.04.13-16.32.14:791][417]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.04.13-16.32.14:791][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.13-16.32.15:208][430]LogSlate: Window 'BP_Forge' being destroyed
+[2022.04.13-16.32.15:237][430]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.04.13-16.32.15:237][430]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.04.13-16.32.15:237][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.13-16.32.21:698][785]LogSkeletalMesh: Display: [AssetLog] C:\Users\nikas\Documents\GitHub\bit-by-bit\BitTheGame\Content\CityofBrass_Enemies\Meshes\Enemy\Archer\Archer.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2022.04.13-16.32.21:750][785]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BitbyBit/Blueprints/EnemyArcher_BP.EnemyArcher_BP
+[2022.04.13-16.32.46:475][731]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BitbyBit/Blueprints/BP_FighterParent.BP_FighterParent
+[2022.04.13-16.33.08:089][499]LogSavePackage: Moving '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Saved/BP_FighterParent71B92DA9432BEE9D481302ACF647C656.tmp' to '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Blueprints/BP_FighterParent.uasset'
+[2022.04.13-16.33.08:108][499]AssetCheck: New page: Asset Save: BP_FighterParent
+[2022.04.13-16.33.08:108][499]LogContentValidation: Display: Validating Blueprint /Game/BitbyBit/Blueprints/BP_FighterParent.BP_FighterParent
+[2022.04.13-16.33.11:711][628]BlueprintLog: New page: Compile BP_FighterParent
+[2022.04.13-16.33.11:790][628]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2022.04.13-16.33.34:581][551]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BitbyBit/Blueprints/EnemyCorpse_BP.EnemyCorpse_BP
+[2022.04.13-16.33.45:872][936]LogBlueprint: Warning: Blueprint EnemyCorpse_BP (child of/implements BP_FighterParent) has a member variable with a conflicting name (Selected). Changing to Selected_0.
+[2022.04.13-16.33.49:316][ 58]Cmd: TRANSACTION UNDO
+[2022.04.13-16.33.49:316][ 58]LogEditorTransaction: Undo Rename Variable
+[2022.04.13-16.33.56:791][318]LogBlueprint: Warning: Blueprint EnemyCorpse_BP (child of/implements BP_FighterParent) has a member variable with a conflicting name (Selected). Changing to Selected_0.
+[2022.04.13-16.34.00:900][458]LogSavePackage: Moving '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Saved/BP_FighterParentE4D337B041C53A63D4FF25B6462FBC81.tmp' to '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Blueprints/BP_FighterParent.uasset'
+[2022.04.13-16.34.00:918][458]AssetCheck: New page: Asset Save: BP_FighterParent
+[2022.04.13-16.34.00:919][458]LogContentValidation: Display: Validating Blueprint /Game/BitbyBit/Blueprints/BP_FighterParent.BP_FighterParent
+[2022.04.13-16.34.01:569][481]BlueprintLog: New page: Compile BP_FighterParent
+[2022.04.13-16.34.01:670][481]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2022.04.13-16.34.58:714][486]LogSavePackage: Moving '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Saved/BP_FighterParent3A0E43B5485A4D144A71979D0BCDBC92.tmp' to '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Blueprints/BP_FighterParent.uasset'
+[2022.04.13-16.34.58:734][486]AssetCheck: New page: Asset Save: BP_FighterParent
+[2022.04.13-16.34.58:734][486]LogContentValidation: Display: Validating Blueprint /Game/BitbyBit/Blueprints/BP_FighterParent.BP_FighterParent
+[2022.04.13-16.34.59:519][513]BlueprintLog: New page: Compile BP_FighterParent
+[2022.04.13-16.34.59:525][513]LogBlueprint: Warning: [AssetLog] C:\Users\nikas\Documents\GitHub\bit-by-bit\BitTheGame\Content\BitbyBit\Blueprints\BP_FighterParent.uasset: [Compiler] Could not find a variable named "Selection" in 'BP_FighterParent_C'.
+Make sure 'BP_FighterParent_C' has been compiled for  Get Selection
+[2022.04.13-16.34.59:526][513]LogBlueprint: Warning: [AssetLog] C:\Users\nikas\Documents\GitHub\bit-by-bit\BitTheGame\Content\BitbyBit\Blueprints\BP_FighterParent.uasset: [Compiler] Could not find a variable named "Selection" in 'BP_FighterParent_C'.
+Make sure 'BP_FighterParent_C' has been compiled for  Get Selection
+[2022.04.13-16.34.59:532][513]LogBlueprint: Error: [AssetLog] C:\Users\nikas\Documents\GitHub\bit-by-bit\BitTheGame\Content\BitbyBit\Blueprints\BP_FighterParent.uasset: [Compiler] The property associated with  Selection  could not be found in '/Game/BitbyBit/Blueprints/BP_FighterParent.BP_FighterParent_C'
+[2022.04.13-16.34.59:533][513]LogBlueprint: Error: [AssetLog] C:\Users\nikas\Documents\GitHub\bit-by-bit\BitTheGame\Content\BitbyBit\Blueprints\BP_FighterParent.uasset: [Compiler] The property associated with  Selection  could not be found in '/Game/BitbyBit/Blueprints/BP_FighterParent.BP_FighterParent_C'
+[2022.04.13-16.34.59:611][513]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2022.04.13-16.35.18:678][153]LogSavePackage: Moving '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Saved/BP_FighterParentA821B2FC4077C30376C721A635BB50FC.tmp' to '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Blueprints/BP_FighterParent.uasset'
+[2022.04.13-16.35.18:701][153]AssetCheck: New page: Asset Save: BP_FighterParent
+[2022.04.13-16.35.18:701][153]LogContentValidation: Display: Validating Blueprint /Game/BitbyBit/Blueprints/BP_FighterParent.BP_FighterParent
+[2022.04.13-16.35.19:092][167]BlueprintLog: New page: Compile BP_FighterParent
+[2022.04.13-16.35.19:188][167]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2022.04.13-16.35.21:393][240]LogSavePackage: Moving '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Saved/EnemyCorpse_BPA38EF321492A2D5479CDD299310416D8.tmp' to '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Blueprints/EnemyCorpse_BP.uasset'
+[2022.04.13-16.35.21:416][240]AssetCheck: New page: Asset Save: EnemyCorpse_BP
+[2022.04.13-16.35.21:416][240]LogContentValidation: Display: Validating Blueprint /Game/BitbyBit/Blueprints/EnemyCorpse_BP.EnemyCorpse_BP
+[2022.04.13-16.35.26:148][405]LogSavePackage: Moving '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Saved/EnemyCorpse_BP217ABAF04E99842BAEAFFA8248C2EBA8.tmp' to '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Blueprints/EnemyCorpse_BP.uasset'
+[2022.04.13-16.35.26:172][405]AssetCheck: New page: Asset Save: EnemyCorpse_BP
+[2022.04.13-16.35.26:172][405]LogContentValidation: Display: Validating Blueprint /Game/BitbyBit/Blueprints/EnemyCorpse_BP.EnemyCorpse_BP
+[2022.04.13-16.35.26:682][424]BlueprintLog: New page: Compile EnemyCorpse_BP
+[2022.04.13-16.35.26:774][424]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2022.04.13-16.35.27:860][462]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.04.13-16.35.27:861][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.13-16.35.30:622][568]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BitbyBit/Blueprints/EnemyWizard_BP.EnemyWizard_BP
+[2022.04.13-16.35.36:955][763]LogSlate: Window 'EnemyWizard_BP' being destroyed
+[2022.04.13-16.35.36:975][763]LogSlate: Window 'EnemyWizard_BP' being destroyed
+[2022.04.13-16.35.36:980][763]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.04.13-16.35.36:981][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.13-16.35.37:080][763]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.04.13-16.35.37:080][763]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.04.13-16.35.37:080][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.13-16.35.37:195][763]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.04.13-16.35.37:195][763]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.04.13-16.35.37:195][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.13-16.36.02:670][868]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2022.04.13-16.36.02:671][868]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_0' took 0.027
+[2022.04.13-16.36.09:668][969]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BitbyBit/Blueprints/EnemyCorpse_BP.EnemyCorpse_BP
+[2022.04.13-16.36.30:228][646]LogSavePackage: Moving '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Saved/EnemyCorpse_BP35A95E2A472D998E0D83A4ACAB1D991D.tmp' to '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Blueprints/EnemyCorpse_BP.uasset'
+[2022.04.13-16.36.30:249][646]AssetCheck: New page: Asset Save: EnemyCorpse_BP
+[2022.04.13-16.36.30:249][646]LogContentValidation: Display: Validating Blueprint /Game/BitbyBit/Blueprints/EnemyCorpse_BP.EnemyCorpse_BP
+[2022.04.13-16.36.30:767][663]BlueprintLog: New page: Compile EnemyCorpse_BP
+[2022.04.13-16.36.30:841][663]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2022.04.13-16.36.43:398][114]LogSavePackage: Moving '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Saved/EnemyCorpse_BP7A1DD84946B5C880FB37A6B9A89ED666.tmp' to '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Blueprints/EnemyCorpse_BP.uasset'
+[2022.04.13-16.36.43:418][114]AssetCheck: New page: Asset Save: EnemyCorpse_BP
+[2022.04.13-16.36.43:419][114]LogContentValidation: Display: Validating Blueprint /Game/BitbyBit/Blueprints/EnemyCorpse_BP.EnemyCorpse_BP
+[2022.04.13-16.37.00:602][735]LogSlate: Window 'EnemyCorpse_BP' being destroyed
+[2022.04.13-16.37.00:626][735]LogSlate: Window 'EnemyCorpse_BP' being destroyed
+[2022.04.13-16.37.00:638][735]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.04.13-16.37.00:638][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
