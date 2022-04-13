@@ -1107,3 +1107,95 @@ Make sure 'BP_FighterParent_C' has been compiled for  Get Selection
 [2022.04.13-16.37.00:626][735]LogSlate: Window 'EnemyCorpse_BP' being destroyed
 [2022.04.13-16.37.00:638][735]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
 [2022.04.13-16.37.00:638][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.13-16.42.30:917][428]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BitbyBit/Blueprints/BP_FighterParent.BP_FighterParent
+[2022.04.13-16.42.34:627][542]LogSlate: Window 'BP_FighterParent' being destroyed
+[2022.04.13-16.42.34:650][542]LogSlate: Window 'BP_FighterParent' being destroyed
+[2022.04.13-16.42.34:660][542]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2022.04.13-16.42.34:661][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.13-16.42.47:439][289]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BitbyBit/Blueprints/BP_FighterParent.BP_FighterParent
+[2022.04.13-16.43.04:164][837]LogSavePackage: Moving '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Saved/BP_FighterParent8B42E1CF4C3FC801B62FFC93DD5F2F5D.tmp' to '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Blueprints/BP_FighterParent.uasset'
+[2022.04.13-16.43.04:188][837]AssetCheck: New page: Asset Save: BP_FighterParent
+[2022.04.13-16.43.04:188][837]LogContentValidation: Display: Validating Blueprint /Game/BitbyBit/Blueprints/BP_FighterParent.BP_FighterParent
+[2022.04.13-16.43.04:586][849]BlueprintLog: New page: Compile BP_FighterParent
+[2022.04.13-16.43.04:675][849]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2022.04.13-16.43.09:902][ 34]LogSlate: Window 'BP_FighterParent' being destroyed
+[2022.04.13-16.43.09:944][ 34]LogSlate: Window 'BP_FighterParent' being destroyed
+[2022.04.13-16.43.09:950][ 34]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.04.13-16.43.09:950][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.13-16.43.15:097][310]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BitbyBit/Buildings/Castle/BP_Castle.BP_Castle
+[2022.04.13-16.44.31:774][788]LogSavePackage: Moving '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Saved/BP_CastleD1267E1C4F56B2D926D60F807AFE9C19.tmp' to '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Buildings/Castle/BP_Castle.uasset'
+[2022.04.13-16.44.31:793][788]AssetCheck: New page: Asset Save: BP_Castle
+[2022.04.13-16.44.31:794][788]LogContentValidation: Display: Validating Blueprint /Game/BitbyBit/Buildings/Castle/BP_Castle.BP_Castle
+[2022.04.13-16.44.32:406][808]BlueprintLog: New page: Compile BP_Castle
+[2022.04.13-16.44.32:494][808]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2022.04.13-16.45.29:866][721]LogSavePackage: Moving '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Saved/BP_CastleE4BBE3AB42CE98238E679593E0D9BB3E.tmp' to '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Buildings/Castle/BP_Castle.uasset'
+[2022.04.13-16.45.29:891][721]AssetCheck: New page: Asset Save: BP_Castle
+[2022.04.13-16.45.29:891][721]LogContentValidation: Display: Validating Blueprint /Game/BitbyBit/Buildings/Castle/BP_Castle.BP_Castle
+[2022.04.13-16.45.30:976][755]BlueprintLog: New page: Compile BP_Castle
+[2022.04.13-16.45.30:992][755]LogBlueprint: Error: [AssetLog] C:\Users\nikas\Documents\GitHub\bit-by-bit\BitTheGame\Content\BitbyBit\Buildings\Castle\BP_Castle.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_FighterParent  to imply a specific type.
+[2022.04.13-16.45.30:993][755]LogBlueprint: Error: [AssetLog] C:\Users\nikas\Documents\GitHub\bit-by-bit\BitTheGame\Content\BitbyBit\Buildings\Castle\BP_Castle.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2022.04.13-16.45.31:060][755]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2022.04.13-16.45.34:754][868]LogSavePackage: Moving '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Saved/BP_Castle47938D8E4AD8C789A54A2283DC0B2CB6.tmp' to '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Buildings/Castle/BP_Castle.uasset'
+[2022.04.13-16.45.34:776][868]AssetCheck: New page: Asset Save: BP_Castle
+[2022.04.13-16.45.34:776][868]LogContentValidation: Display: Validating Blueprint /Game/BitbyBit/Buildings/Castle/BP_Castle.BP_Castle
+[2022.04.13-16.45.35:168][879]BlueprintLog: New page: Compile BP_Castle
+[2022.04.13-16.45.35:253][879]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2022.04.13-16.45.38:757][997]LogSlate: Window 'BP_Castle' being destroyed
+[2022.04.13-16.45.38:801][997]LogSlate: Window 'BP_Castle' being destroyed
+[2022.04.13-16.45.38:812][997]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2022.04.13-16.45.38:812][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.13-16.45.41:583][145]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BitbyBit/Buildings/Farm/BP_Farm.BP_Farm
+[2022.04.13-16.46.06:414][923]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2022.04.13-16.46.06:415][923]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_0' took 0.038
+[2022.04.13-16.56.18:681][329]LogUObjectHash: Compacting FUObjectHashTables data took   4.93ms
+[2022.04.13-16.56.18:684][329]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_0' took 0.042
+[2022.04.13-17.00.49:164][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BitbyBit/Buildings/Farm/BP_Farm" FILE="../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Buildings/Farm/BP_Farm.uasset" SILENT=true
+[2022.04.13-17.00.49:249][928]LogSavePackage: Moving '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Saved/BP_Farm05B5D4B54F14FBCF54B3759476D138F9.tmp' to '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Buildings/Farm/BP_Farm.uasset'
+[2022.04.13-17.00.49:274][928]AssetCheck: New page: Asset Save: BP_Farm
+[2022.04.13-17.00.49:274][928]LogContentValidation: Display: Validating Blueprint /Game/BitbyBit/Buildings/Farm/BP_Farm.BP_Farm
+[2022.04.13-17.00.50:278][956]BlueprintLog: New page: Compile BP_Farm
+[2022.04.13-17.00.50:369][956]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2022.04.13-17.00.53:655][112]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BitbyBit/Buildings/Castle/BP_Castle.BP_Castle
+[2022.04.13-17.01.02:683][381]LogSavePackage: Moving '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Saved/BP_Castle84F4758549D5ABFCB16F9AB81ACD061D.tmp' to '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Buildings/Castle/BP_Castle.uasset'
+[2022.04.13-17.01.02:704][381]AssetCheck: New page: Asset Save: BP_Castle
+[2022.04.13-17.01.02:704][381]LogContentValidation: Display: Validating Blueprint /Game/BitbyBit/Buildings/Castle/BP_Castle.BP_Castle
+[2022.04.13-17.01.04:158][428]BlueprintLog: New page: Compile BP_Castle
+[2022.04.13-17.01.04:252][428]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2022.04.13-17.01.09:264][595]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2022.04.13-17.01.09:265][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.13-17.03.47:415][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BitbyBit/Buildings/Farm/BP_Farm" FILE="../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Buildings/Farm/BP_Farm.uasset" SILENT=true
+[2022.04.13-17.03.47:501][485]LogSavePackage: Moving '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Saved/BP_Farm081004F4497EFC82D19E94A801437581.tmp' to '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Buildings/Farm/BP_Farm.uasset'
+[2022.04.13-17.03.47:524][485]AssetCheck: New page: Asset Save: BP_Farm
+[2022.04.13-17.03.47:524][485]LogContentValidation: Display: Validating Blueprint /Game/BitbyBit/Buildings/Farm/BP_Farm.BP_Farm
+[2022.04.13-17.03.48:105][503]BlueprintLog: New page: Compile BP_Farm
+[2022.04.13-17.03.48:214][503]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2022.04.13-17.06.19:160][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2022.04.13-17.06.19:161][ 60]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_0' took 0.026
+[2022.04.13-17.16.19:629][852]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.04.13-17.16.19:629][852]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_0' took 0.025
+[2022.04.13-17.17.24:591][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BitbyBit/Buildings/Farm/BP_Farm" FILE="../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Buildings/Farm/BP_Farm.uasset" SILENT=true
+[2022.04.13-17.17.24:641][318]LogSavePackage: Moving '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Saved/BP_FarmFF64EACA43ED317109D4F3885C4401D3.tmp' to '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Buildings/Farm/BP_Farm.uasset'
+[2022.04.13-17.17.24:657][318]AssetCheck: New page: Asset Save: BP_Farm
+[2022.04.13-17.17.24:657][318]LogContentValidation: Display: Validating Blueprint /Game/BitbyBit/Buildings/Farm/BP_Farm.BP_Farm
+[2022.04.13-17.17.24:939][328]BlueprintLog: New page: Compile BP_Farm
+[2022.04.13-17.17.25:014][328]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2022.04.13-17.17.31:255][520]LogSlate: Window 'BP_Farm' being destroyed
+[2022.04.13-17.17.31:277][520]LogSlate: Window 'BP_Farm' being destroyed
+[2022.04.13-17.17.31:284][520]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.04.13-17.17.31:284][520]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2022.04.13-17.17.31:284][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.13-17.17.34:596][702]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BitbyBit/Buildings/Forge/BP_Forge.BP_Forge
+[2022.04.13-17.18.30:213][525]LogSavePackage: Moving '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Saved/BP_Forge3CBEE07549B2BD23D071F58BCF72C281.tmp' to '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Buildings/Forge/BP_Forge.uasset'
+[2022.04.13-17.18.30:226][525]AssetCheck: New page: Asset Save: BP_Forge
+[2022.04.13-17.18.30:226][525]LogContentValidation: Display: Validating Blueprint /Game/BitbyBit/Buildings/Forge/BP_Forge.BP_Forge
+[2022.04.13-17.18.31:099][554]BlueprintLog: New page: Compile BP_Forge
+[2022.04.13-17.18.31:172][554]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2022.04.13-17.19.25:502][288]LogSavePackage: Moving '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Saved/BP_ForgeD010EB3D49061651B9DEC39D772F654F.tmp' to '../../../../../../Users/nikas/Documents/GitHub/bit-by-bit/BitTheGame/Content/BitbyBit/Buildings/Forge/BP_Forge.uasset'
+[2022.04.13-17.19.25:521][288]AssetCheck: New page: Asset Save: BP_Forge
+[2022.04.13-17.19.25:521][288]LogContentValidation: Display: Validating Blueprint /Game/BitbyBit/Buildings/Forge/BP_Forge.BP_Forge
+[2022.04.13-17.19.26:178][307]BlueprintLog: New page: Compile BP_Forge
+[2022.04.13-17.19.26:249][307]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2022.04.13-17.19.33:051][543]LogSlate: Window 'BP_Forge' being destroyed
+[2022.04.13-17.19.33:067][543]LogSlate: Window 'BP_Forge' being destroyed
+[2022.04.13-17.19.33:078][543]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2022.04.13-17.19.33:078][543]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
