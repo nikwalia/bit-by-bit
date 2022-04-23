@@ -1675,3 +1675,385 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.23-18.22.24:590][103]LogFileHelpers: Saving map 'Castlevania' took 0.126
 [2022.04.23-18.22.24:610][103]AssetCheck: New page: Asset Save: Castlevania
 [2022.04.23-18.22.24:610][103]LogContentValidation: Display: Validating World /Game/BitbyBit/Castlevania.Castlevania
+[2022.04.23-18.25.32:941][718]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2022.04.23-18.29.39:162][451]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.23-18.29.39:170][451]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.23-18.29.39:170][451]PIE: New page: PIE session: Castlevania (Apr 23, 2022, 8:29:39 AM)
+[2022.04.23-18.29.39:170][451]LogPlayLevel: Creating play world package: /Game/BitbyBit/UEDPIE_0_Castlevania
+[2022.04.23-18.29.39:230][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059982s)
+[2022.04.23-18.29.39:231][451]LogAIModule: Creating AISystem for world Castlevania
+[2022.04.23-18.29.39:232][451]LogPlayLevel: PIE: World Init took: (0.001162s)
+[2022.04.23-18.29.39:232][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BitbyBit/Castlevania.Castlevania to /Game/BitbyBit/UEDPIE_0_Castlevania.Castlevania (0.061294s)
+[2022.04.23-18.29.39:288][451]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2022.04.23-18.29.39:291][451]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.04.23-18.29.39:291][451]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.23-18.29.39:291][451]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.23-18.29.39:291][451]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.23-18.29.39:291][451]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.23-18.29.39:291][451]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.23-18.29.39:291][451]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.23-18.29.39:291][451]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.23-18.29.39:291][451]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.23-18.29.39:292][451]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.23-18.29.39:292][451]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.23-18.29.39:292][451]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.23-18.29.39:292][451]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.23-18.29.39:294][451]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.23-18.29.39:294][451]LogAudioMixer: Display: 1: FrontRight
+[2022.04.23-18.29.39:335][451]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2022.04.23-18.29.39:335][451]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.23-18.29.39:335][451]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.23-18.29.39:335][451]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.23-18.29.39:336][451]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.23-18.29.39:336][451]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.23-18.29.39:336][451]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.23-18.29.39:336][451]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.23-18.29.39:336][451]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.23-18.29.39:336][451]LogInit: FAudioDevice initialized.
+[2022.04.23-18.29.39:336][451]LogAudio: Display: Audio Device (ID: 9) registered with world 'Castlevania'.
+[2022.04.23-18.29.39:347][451]LogLoad: Game class is 'TurnBasedGameMode_C'
+[2022.04.23-18.29.39:355][451]LogWorld: Bringing World /Game/BitbyBit/UEDPIE_0_Castlevania.Castlevania up for play (max tick rate 60) at 2022.04.23-13.29.39
+[2022.04.23-18.29.39:356][451]LogWorld: Bringing up level for play took: 0.008376
+[2022.04.23-18.29.39:356][451]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2022.04.23-18.29.39:360][451]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockAlways
+[2022.04.23-18.29.39:360][451]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.04.23-18.29.39:360][451]PIE: Server logged in
+[2022.04.23-18.29.39:361][451]PIE: Play in editor total start time 0.193 seconds.
+[2022.04.23-18.29.47:343][797]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	TurnBasedController_C /Game/BitbyBit/UEDPIE_0_Castlevania.Castlevania:PersistentLevel.TurnBasedController_C_0
+	Function /Game/BitbyBit/TurnBasedController.TurnBasedController_C:ExecuteUbergraph_TurnBasedController:080D
+[2022.04.23-18.29.47:343][797]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  TurnBasedController Function:  Execute Ubergraph Turn Based Controller Graph:  EventGraph Node:  Set Value as Vector
+[2022.04.23-18.29.47:809][818]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	TurnBasedController_C /Game/BitbyBit/UEDPIE_0_Castlevania.Castlevania:PersistentLevel.TurnBasedController_C_0
+	Function /Game/BitbyBit/TurnBasedController.TurnBasedController_C:ExecuteUbergraph_TurnBasedController:080D
+[2022.04.23-18.29.47:809][818]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  TurnBasedController Function:  Execute Ubergraph Turn Based Controller Graph:  EventGraph Node:  Set Value as Vector
+[2022.04.23-18.29.48:347][842]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	TurnBasedController_C /Game/BitbyBit/UEDPIE_0_Castlevania.Castlevania:PersistentLevel.TurnBasedController_C_0
+	Function /Game/BitbyBit/TurnBasedController.TurnBasedController_C:ExecuteUbergraph_TurnBasedController:080D
+[2022.04.23-18.29.48:347][842]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  TurnBasedController Function:  Execute Ubergraph Turn Based Controller Graph:  EventGraph Node:  Set Value as Vector
+[2022.04.23-18.29.49:435][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-18.29.49:435][888]LogWorld: BeginTearingDown for /Game/BitbyBit/UEDPIE_0_Castlevania
+[2022.04.23-18.29.49:435][888]LogWorld: UWorld::CleanupWorld for Castlevania, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-18.29.49:437][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-18.29.49:451][888]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.23-18.29.49:463][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-18.29.49:503][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-18.29.49:503][888]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-18.29.49:504][888]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-18.29.49:515][888]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2022.04.23-18.29.49:637][889]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.04.23-18.34.17:120][321]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BitbyBit/Units/UnitAI.UnitAI
+[2022.04.23-18.34.28:042][529]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BitbyBit/Units/WarriorUnit.WarriorUnit
+[2022.04.23-18.34.36:805][724]BlueprintLog: New page: Compile WarriorUnit
+[2022.04.23-18.34.36:958][724]LogUObjectHash: Compacting FUObjectHashTables data took   5.45ms
+[2022.04.23-18.34.38:169][749]LogSavePackage: Moving '../../../../../../Users/smoor/Documents/CS/CS498GD/FinalProject/bit-by-bit/BitTheGame/Saved/WarriorUnitD19A3AE44DE3EE4C7E639382A6D3B4C9.tmp' to '../../../../../../Users/smoor/Documents/CS/CS498GD/FinalProject/bit-by-bit/BitTheGame/Content/BitbyBit/Units/WarriorUnit.uasset'
+[2022.04.23-18.34.38:193][749]AssetCheck: New page: Asset Save: WarriorUnit
+[2022.04.23-18.34.38:194][749]LogContentValidation: Display: Validating Blueprint /Game/BitbyBit/Units/WarriorUnit.WarriorUnit
+[2022.04.23-18.34.40:159][796]LogSlate: Window 'Message Log' being destroyed
+[2022.04.23-18.34.40:208][796]LogSlate: Window 'Message Log' being destroyed
+[2022.04.23-18.34.40:973][816]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.23-18.34.40:990][816]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.23-18.34.40:990][816]PIE: New page: PIE session: Castlevania (Apr 23, 2022, 8:34:40 AM)
+[2022.04.23-18.34.40:990][816]LogPlayLevel: Creating play world package: /Game/BitbyBit/UEDPIE_0_Castlevania
+[2022.04.23-18.34.41:111][816]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120312s)
+[2022.04.23-18.34.41:112][816]LogAIModule: Creating AISystem for world Castlevania
+[2022.04.23-18.34.41:112][816]LogPlayLevel: PIE: World Init took: (0.001356s)
+[2022.04.23-18.34.41:112][816]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BitbyBit/Castlevania.Castlevania to /Game/BitbyBit/UEDPIE_0_Castlevania.Castlevania (0.121877s)
+[2022.04.23-18.34.41:179][816]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2022.04.23-18.34.41:181][816]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.04.23-18.34.41:181][816]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.23-18.34.41:181][816]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.23-18.34.41:181][816]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.23-18.34.41:181][816]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.23-18.34.41:181][816]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.23-18.34.41:181][816]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.23-18.34.41:181][816]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.23-18.34.41:181][816]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.23-18.34.41:181][816]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.23-18.34.41:181][816]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.23-18.34.41:181][816]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.23-18.34.41:181][816]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.23-18.34.41:186][816]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.23-18.34.41:186][816]LogAudioMixer: Display: 1: FrontRight
+[2022.04.23-18.34.41:252][816]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2022.04.23-18.34.41:252][816]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.23-18.34.41:252][816]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.23-18.34.41:252][816]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.23-18.34.41:252][816]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.23-18.34.41:253][816]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.23-18.34.41:253][816]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.23-18.34.41:254][816]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.23-18.34.41:254][816]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.23-18.34.41:254][816]LogInit: FAudioDevice initialized.
+[2022.04.23-18.34.41:254][816]LogAudio: Display: Audio Device (ID: 10) registered with world 'Castlevania'.
+[2022.04.23-18.34.41:262][816]LogLoad: Game class is 'TurnBasedGameMode_C'
+[2022.04.23-18.34.41:273][816]LogWorld: Bringing World /Game/BitbyBit/UEDPIE_0_Castlevania.Castlevania up for play (max tick rate 60) at 2022.04.23-13.34.41
+[2022.04.23-18.34.41:274][816]LogWorld: Bringing up level for play took: 0.011675
+[2022.04.23-18.34.41:275][816]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2022.04.23-18.34.41:280][816]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockAlways
+[2022.04.23-18.34.41:280][816]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.04.23-18.34.41:281][816]PIE: Server logged in
+[2022.04.23-18.34.41:282][816]PIE: Play in editor total start time 0.294 seconds.
+[2022.04.23-18.34.59:057][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-18.34.59:057][385]LogWorld: BeginTearingDown for /Game/BitbyBit/UEDPIE_0_Castlevania
+[2022.04.23-18.34.59:057][385]LogWorld: UWorld::CleanupWorld for Castlevania, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-18.34.59:059][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-18.34.59:106][385]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.23-18.34.59:122][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-18.34.59:187][385]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.23-18.34.59:187][385]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-18.34.59:188][385]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-18.34.59:193][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-18.34.59:204][385]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2022.04.23-18.34.59:245][386]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2022.04.23-18.36.55:048][312]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-18.36.55:048][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-18.36.55:069][312]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-18.36.55:069][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-18.36.56:101][335]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-18.36.56:101][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-18.36.56:118][335]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-18.36.56:118][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-18.37.04:548][511]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BitbyBit/Buildings/BuildingUI/UITrainCard.UITrainCard
+[2022.04.23-18.37.04:947][511]LogScript: Warning: Accessed None trying to read Class from property Unit Class
+	UITrainCard_C /Engine/Transient.World_30:UITrainCard_C_1
+	Function /Game/BitbyBit/Buildings/BuildingUI/UITrainCard.UITrainCard_C:ExecuteUbergraph_UITrainCard:0054
+[2022.04.23-18.37.04:947][511]LogScript: Warning: Accessed None trying to read Class from property Unit Class
+	UITrainCard_C /Engine/Transient.World_30:UITrainCard_C_1
+	Function /Game/BitbyBit/Buildings/BuildingUI/UITrainCard.UITrainCard_C:ExecuteUbergraph_UITrainCard:0118
+[2022.04.23-18.37.20:533][915]BlueprintLog: New page: Compile UITrainBaseMenu
+[2022.04.23-18.37.20:671][915]LogUObjectHash: Compacting FUObjectHashTables data took   5.35ms
+[2022.04.23-18.37.21:206][926]LogSavePackage: Moving '../../../../../../Users/smoor/Documents/CS/CS498GD/FinalProject/bit-by-bit/BitTheGame/Saved/UITrainBaseMenuE847B4F645D0620B51351BAB8B9F26DD.tmp' to '../../../../../../Users/smoor/Documents/CS/CS498GD/FinalProject/bit-by-bit/BitTheGame/Content/BitbyBit/Buildings/BuildingUI/UITrainBaseMenu.uasset'
+[2022.04.23-18.37.21:231][926]AssetCheck: New page: Asset Save: UITrainBaseMenu
+[2022.04.23-18.37.21:231][926]LogContentValidation: Display: Validating WidgetBlueprint /Game/BitbyBit/Buildings/BuildingUI/UITrainBaseMenu.UITrainBaseMenu
+[2022.04.23-18.37.22:993][973]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.23-18.37.23:003][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.23-18.37.23:003][973]PIE: New page: PIE session: Castlevania (Apr 23, 2022, 8:37:23 AM)
+[2022.04.23-18.37.23:003][973]LogPlayLevel: Creating play world package: /Game/BitbyBit/UEDPIE_0_Castlevania
+[2022.04.23-18.37.23:107][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.104139s)
+[2022.04.23-18.37.23:109][973]LogAIModule: Creating AISystem for world Castlevania
+[2022.04.23-18.37.23:109][973]LogPlayLevel: PIE: World Init took: (0.001288s)
+[2022.04.23-18.37.23:109][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BitbyBit/Castlevania.Castlevania to /Game/BitbyBit/UEDPIE_0_Castlevania.Castlevania (0.105604s)
+[2022.04.23-18.37.23:201][973]LogUObjectHash: Compacting FUObjectHashTables data took   5.14ms
+[2022.04.23-18.37.23:202][973]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.04.23-18.37.23:202][973]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.23-18.37.23:202][973]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.23-18.37.23:202][973]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.23-18.37.23:202][973]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.23-18.37.23:202][973]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.23-18.37.23:202][973]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.23-18.37.23:202][973]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.23-18.37.23:202][973]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.23-18.37.23:202][973]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.23-18.37.23:202][973]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.23-18.37.23:202][973]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.23-18.37.23:202][973]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.23-18.37.23:206][973]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.23-18.37.23:206][973]LogAudioMixer: Display: 1: FrontRight
+[2022.04.23-18.37.23:271][973]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2022.04.23-18.37.23:271][973]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.23-18.37.23:271][973]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.23-18.37.23:271][973]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.23-18.37.23:272][973]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.23-18.37.23:272][973]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.23-18.37.23:272][973]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.23-18.37.23:274][973]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.23-18.37.23:274][973]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.23-18.37.23:274][973]LogInit: FAudioDevice initialized.
+[2022.04.23-18.37.23:274][973]LogAudio: Display: Audio Device (ID: 11) registered with world 'Castlevania'.
+[2022.04.23-18.37.23:286][973]LogLoad: Game class is 'TurnBasedGameMode_C'
+[2022.04.23-18.37.23:297][973]LogWorld: Bringing World /Game/BitbyBit/UEDPIE_0_Castlevania.Castlevania up for play (max tick rate 60) at 2022.04.23-13.37.23
+[2022.04.23-18.37.23:298][973]LogWorld: Bringing up level for play took: 0.010187
+[2022.04.23-18.37.23:298][973]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2022.04.23-18.37.23:302][973]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockAlways
+[2022.04.23-18.37.23:302][973]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.04.23-18.37.23:303][973]PIE: Server logged in
+[2022.04.23-18.37.23:304][973]PIE: Play in editor total start time 0.303 seconds.
+[2022.04.23-18.37.45:387][664]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-18.37.45:387][664]LogWorld: BeginTearingDown for /Game/BitbyBit/UEDPIE_0_Castlevania
+[2022.04.23-18.37.45:388][664]LogWorld: UWorld::CleanupWorld for Castlevania, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-18.37.45:389][664]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-18.37.45:400][664]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.23-18.37.45:414][664]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-18.37.45:468][664]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.23-18.37.45:469][664]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-18.37.45:470][664]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-18.37.45:475][664]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-18.37.45:496][664]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2022.04.23-18.37.45:539][665]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2022.04.23-18.37.45:815][672]LogEditorViewport: Clicking on Actor (LMB): BP_Castle_C (BP_Castle)
+[2022.04.23-18.37.47:450][713]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.23-18.37.47:462][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.23-18.37.47:462][713]PIE: New page: PIE session: Castlevania (Apr 23, 2022, 8:37:47 AM)
+[2022.04.23-18.37.47:462][713]LogPlayLevel: Creating play world package: /Game/BitbyBit/UEDPIE_0_Castlevania
+[2022.04.23-18.37.47:568][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.105835s)
+[2022.04.23-18.37.47:569][713]LogAIModule: Creating AISystem for world Castlevania
+[2022.04.23-18.37.47:569][713]LogPlayLevel: PIE: World Init took: (0.001285s)
+[2022.04.23-18.37.47:569][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BitbyBit/Castlevania.Castlevania to /Game/BitbyBit/UEDPIE_0_Castlevania.Castlevania (0.107277s)
+[2022.04.23-18.37.47:624][713]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2022.04.23-18.37.47:626][713]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.04.23-18.37.47:626][713]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.23-18.37.47:626][713]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.23-18.37.47:626][713]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.23-18.37.47:626][713]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.23-18.37.47:626][713]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.23-18.37.47:626][713]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.23-18.37.47:626][713]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.23-18.37.47:626][713]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.23-18.37.47:627][713]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.23-18.37.47:627][713]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.23-18.37.47:627][713]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.23-18.37.47:627][713]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.23-18.37.47:630][713]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.23-18.37.47:630][713]LogAudioMixer: Display: 1: FrontRight
+[2022.04.23-18.37.47:696][713]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2022.04.23-18.37.47:697][713]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.23-18.37.47:697][713]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.23-18.37.47:697][713]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.23-18.37.47:697][713]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.23-18.37.47:697][713]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.23-18.37.47:697][713]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.23-18.37.47:698][713]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.23-18.37.47:698][713]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.23-18.37.47:698][713]LogInit: FAudioDevice initialized.
+[2022.04.23-18.37.47:698][713]LogAudio: Display: Audio Device (ID: 12) registered with world 'Castlevania'.
+[2022.04.23-18.37.47:705][713]LogLoad: Game class is 'TurnBasedGameMode_C'
+[2022.04.23-18.37.47:715][713]LogWorld: Bringing World /Game/BitbyBit/UEDPIE_0_Castlevania.Castlevania up for play (max tick rate 60) at 2022.04.23-13.37.47
+[2022.04.23-18.37.47:717][713]LogWorld: Bringing up level for play took: 0.010407
+[2022.04.23-18.37.47:717][713]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2022.04.23-18.37.47:721][713]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockAlways
+[2022.04.23-18.37.47:721][713]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.04.23-18.37.47:722][713]PIE: Server logged in
+[2022.04.23-18.37.47:723][713]PIE: Play in editor total start time 0.263 seconds.
+[2022.04.23-18.38.00:077][118]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-18.38.00:077][118]LogWorld: BeginTearingDown for /Game/BitbyBit/UEDPIE_0_Castlevania
+[2022.04.23-18.38.00:078][118]LogWorld: UWorld::CleanupWorld for Castlevania, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-18.38.00:080][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-18.38.00:110][118]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.23-18.38.00:125][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-18.38.00:180][118]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-18.38.00:181][118]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-18.38.00:182][118]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-18.38.00:198][118]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2022.04.23-18.38.00:240][119]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2022.04.23-18.38.11:294][402]BlueprintLog: New page: Compile UITrainBaseMenu
+[2022.04.23-18.38.11:369][402]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2022.04.23-18.38.11:956][414]LogSavePackage: Moving '../../../../../../Users/smoor/Documents/CS/CS498GD/FinalProject/bit-by-bit/BitTheGame/Saved/UITrainBaseMenu97B5622B4BAEC2C7DB375A9B4F17F04A.tmp' to '../../../../../../Users/smoor/Documents/CS/CS498GD/FinalProject/bit-by-bit/BitTheGame/Content/BitbyBit/Buildings/BuildingUI/UITrainBaseMenu.uasset'
+[2022.04.23-18.38.11:979][414]AssetCheck: New page: Asset Save: UITrainBaseMenu
+[2022.04.23-18.38.11:980][414]LogContentValidation: Display: Validating WidgetBlueprint /Game/BitbyBit/Buildings/BuildingUI/UITrainBaseMenu.UITrainBaseMenu
+[2022.04.23-18.38.13:705][461]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.23-18.38.13:716][461]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.23-18.38.13:716][461]PIE: New page: PIE session: Castlevania (Apr 23, 2022, 8:38:13 AM)
+[2022.04.23-18.38.13:716][461]LogPlayLevel: Creating play world package: /Game/BitbyBit/UEDPIE_0_Castlevania
+[2022.04.23-18.38.13:825][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.108910s)
+[2022.04.23-18.38.13:826][461]LogAIModule: Creating AISystem for world Castlevania
+[2022.04.23-18.38.13:827][461]LogPlayLevel: PIE: World Init took: (0.001409s)
+[2022.04.23-18.38.13:827][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BitbyBit/Castlevania.Castlevania to /Game/BitbyBit/UEDPIE_0_Castlevania.Castlevania (0.110505s)
+[2022.04.23-18.38.13:882][461]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2022.04.23-18.38.13:883][461]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.04.23-18.38.13:883][461]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.23-18.38.13:883][461]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.23-18.38.13:884][461]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.23-18.38.13:884][461]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.23-18.38.13:884][461]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.23-18.38.13:884][461]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.23-18.38.13:884][461]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.23-18.38.13:884][461]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.23-18.38.13:884][461]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.23-18.38.13:884][461]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.23-18.38.13:884][461]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.23-18.38.13:884][461]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.23-18.38.13:888][461]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.23-18.38.13:888][461]LogAudioMixer: Display: 1: FrontRight
+[2022.04.23-18.38.13:954][461]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2022.04.23-18.38.13:955][461]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.23-18.38.13:955][461]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.23-18.38.13:955][461]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.23-18.38.13:955][461]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.23-18.38.13:955][461]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.23-18.38.13:955][461]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.23-18.38.13:956][461]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.23-18.38.13:956][461]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.23-18.38.13:956][461]LogInit: FAudioDevice initialized.
+[2022.04.23-18.38.13:956][461]LogAudio: Display: Audio Device (ID: 13) registered with world 'Castlevania'.
+[2022.04.23-18.38.13:970][461]LogLoad: Game class is 'TurnBasedGameMode_C'
+[2022.04.23-18.38.13:980][461]LogWorld: Bringing World /Game/BitbyBit/UEDPIE_0_Castlevania.Castlevania up for play (max tick rate 60) at 2022.04.23-13.38.13
+[2022.04.23-18.38.13:981][461]LogWorld: Bringing up level for play took: 0.010314
+[2022.04.23-18.38.13:981][461]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2022.04.23-18.38.13:986][461]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockAlways
+[2022.04.23-18.38.13:986][461]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.04.23-18.38.13:986][461]PIE: Server logged in
+[2022.04.23-18.38.13:987][461]PIE: Play in editor total start time 0.274 seconds.
+[2022.04.23-18.38.27:317][893]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-18.38.27:317][893]LogWorld: BeginTearingDown for /Game/BitbyBit/UEDPIE_0_Castlevania
+[2022.04.23-18.38.27:318][893]LogWorld: UWorld::CleanupWorld for Castlevania, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-18.38.27:320][893]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-18.38.27:361][893]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.23-18.38.27:376][893]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-18.38.27:430][893]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.23-18.38.27:431][893]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-18.38.27:433][893]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-18.38.27:437][893]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-18.38.27:451][893]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2022.04.23-18.38.27:492][894]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2022.04.23-18.38.40:942][215]BlueprintLog: New page: Compile UITrainBaseMenu
+[2022.04.23-18.38.41:028][215]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2022.04.23-18.38.41:559][225]LogSavePackage: Moving '../../../../../../Users/smoor/Documents/CS/CS498GD/FinalProject/bit-by-bit/BitTheGame/Saved/UITrainBaseMenuF3D026C347B175472B336AA610856880.tmp' to '../../../../../../Users/smoor/Documents/CS/CS498GD/FinalProject/bit-by-bit/BitTheGame/Content/BitbyBit/Buildings/BuildingUI/UITrainBaseMenu.uasset'
+[2022.04.23-18.38.41:581][225]AssetCheck: New page: Asset Save: UITrainBaseMenu
+[2022.04.23-18.38.41:581][225]LogContentValidation: Display: Validating WidgetBlueprint /Game/BitbyBit/Buildings/BuildingUI/UITrainBaseMenu.UITrainBaseMenu
+[2022.04.23-18.38.43:912][287]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.23-18.38.43:925][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.23-18.38.43:925][287]PIE: New page: PIE session: Castlevania (Apr 23, 2022, 8:38:43 AM)
+[2022.04.23-18.38.43:925][287]LogPlayLevel: Creating play world package: /Game/BitbyBit/UEDPIE_0_Castlevania
+[2022.04.23-18.38.44:046][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120795s)
+[2022.04.23-18.38.44:048][287]LogAIModule: Creating AISystem for world Castlevania
+[2022.04.23-18.38.44:048][287]LogPlayLevel: PIE: World Init took: (0.001370s)
+[2022.04.23-18.38.44:048][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BitbyBit/Castlevania.Castlevania to /Game/BitbyBit/UEDPIE_0_Castlevania.Castlevania (0.122344s)
+[2022.04.23-18.38.44:105][287]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2022.04.23-18.38.44:107][287]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.04.23-18.38.44:107][287]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.23-18.38.44:107][287]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.23-18.38.44:107][287]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.23-18.38.44:107][287]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.23-18.38.44:107][287]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.23-18.38.44:107][287]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.23-18.38.44:107][287]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.23-18.38.44:107][287]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.23-18.38.44:107][287]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.23-18.38.44:108][287]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.23-18.38.44:108][287]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.23-18.38.44:108][287]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.23-18.38.44:111][287]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.23-18.38.44:112][287]LogAudioMixer: Display: 1: FrontRight
+[2022.04.23-18.38.44:175][287]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2022.04.23-18.38.44:175][287]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.23-18.38.44:175][287]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.23-18.38.44:175][287]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.23-18.38.44:176][287]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.23-18.38.44:176][287]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.23-18.38.44:176][287]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.23-18.38.44:177][287]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.23-18.38.44:177][287]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.23-18.38.44:177][287]LogInit: FAudioDevice initialized.
+[2022.04.23-18.38.44:177][287]LogAudio: Display: Audio Device (ID: 14) registered with world 'Castlevania'.
+[2022.04.23-18.38.44:188][287]LogLoad: Game class is 'TurnBasedGameMode_C'
+[2022.04.23-18.38.44:198][287]LogWorld: Bringing World /Game/BitbyBit/UEDPIE_0_Castlevania.Castlevania up for play (max tick rate 60) at 2022.04.23-13.38.44
+[2022.04.23-18.38.44:200][287]LogWorld: Bringing up level for play took: 0.010261
+[2022.04.23-18.38.44:200][287]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2022.04.23-18.38.44:204][287]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockAlways
+[2022.04.23-18.38.44:204][287]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.04.23-18.38.44:205][287]PIE: Server logged in
+[2022.04.23-18.38.44:206][287]PIE: Play in editor total start time 0.284 seconds.
+[2022.04.23-18.39.07:722][ 51]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-18.39.07:722][ 51]LogWorld: BeginTearingDown for /Game/BitbyBit/UEDPIE_0_Castlevania
+[2022.04.23-18.39.07:722][ 51]LogWorld: UWorld::CleanupWorld for Castlevania, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-18.39.07:724][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-18.39.07:763][ 51]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.23-18.39.07:819][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-18.39.07:871][ 51]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.23-18.39.07:871][ 51]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-18.39.07:873][ 51]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-18.39.07:878][ 51]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-18.39.07:887][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2022.04.23-18.39.07:941][ 52]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2022.04.23-18.39.14:335][163]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
